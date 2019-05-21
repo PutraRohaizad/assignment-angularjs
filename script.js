@@ -1,3 +1,4 @@
+var db = require('./db')
 var app = angular.module('main', ['ngRoute']);
 
 app.config(function($routeProvider, $locationProvider) {
