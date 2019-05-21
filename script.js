@@ -1,5 +1,6 @@
 var app = angular.module('main', ['ngRoute']);
 
+// Routing
 app.config(function($routeProvider, $locationProvider) {
 	$routeProvider.when('/', {
 		templateUrl: './components/home.html',
